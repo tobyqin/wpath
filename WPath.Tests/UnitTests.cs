@@ -9,7 +9,7 @@ using WPath;
 namespace WPath.Tests
 {
     [TestClass]
-    public class UiaTests
+    public class UnitTests
     {
         [WPath("/Edit[@id='txtId' or @Class='TextBox']")]
         public AutomationElement EditControl
