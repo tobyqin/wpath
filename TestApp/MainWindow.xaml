@@ -1,0 +1,19 @@
+﻿<Window x:Class="TestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Generate User Key" Height="240" Width="525" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="key-icon.ico">
+    <Grid>
+        <Label Name="lbId" Content="ID: " Margin="45,60,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontFamily="Segoe UI" FontWeight="Bold" />
+        <TextBox Name="txtId" HorizontalAlignment="Left" Height="23" Margin="130,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" />
+        <Label x:Name="lblPassword" Content="Password: " Margin="45,100,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontFamily="Segoe UI" FontWeight="Bold" />
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="130,100,0,0"  VerticalAlignment="Top" Width="150" />
+        <Label Content="Place at: " Margin="45,140,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontFamily="Segoe UI" FontWeight="Bold" />
+        <TextBox Name="txtPlace" HorizontalAlignment="Left" Height="23" Margin="130,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270" />
+        <Button Name="btnChange" Content="..." HorizontalAlignment="Left" Margin="415,140,0,0" VerticalAlignment="Top" Width="40" Height="23" Click="btnChange_Click" />
+        <Label Name="lbTips" Content="OK - Generate; Reset - Clear forms." HorizontalAlignment="Center" Margin="20,170,0,0" VerticalAlignment="Top" FontFamily="Segoe UI" Foreground="Black" />
+        <Button Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="322,50,0,0" VerticalAlignment="Top" Width="134" Height="30" Click="btnOK_Click" FontFamily="Microsoft YaHei" FontSize="12" FontWeight="Bold" />
+        <Button Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="322,92,0,0" VerticalAlignment="Top" Width="134" Height="30" Click="btnReset_Click" FontFamily="Microsoft YaHei" FontSize="12" FontWeight="Bold" />
+
+        <Label Content="This tool will help you generate a key file." HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="14" Foreground="#FF5D5B5B" />
+    </Grid>
+</Window>

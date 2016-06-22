@@ -75,7 +75,9 @@ Assert.AreEqual(ControlType.Text, e.Current.ControlType);
   - /edit = /Edit
 - Welcome to extend the feature by sending pull requests.
 - Parent element locator `../` is **not** support yet.
+- For more usage please refer to [unit test examples][4].
 
 [1]: http://www.w3schools.com/xsl/xpath_intro.asp
 [2]: https://msdn.microsoft.com/en-us/library/ms747327(v=vs.110).aspx
 [3]: https://msdn.microsoft.com/en-us/library/ms743581(v=vs.110).aspx
+[4]: https://github.com/tobyqin/wpath
