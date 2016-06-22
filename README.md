@@ -11,7 +11,7 @@ You can clone the repository and compile source code by yourself. The second opt
 
 - UIA, UIPath, UIAPath, UILocator
 
-### Usage
+### Get Started
 
 1. The path should be started with '/'.
 2. Use '/' to separate element nodes in a path.
@@ -52,7 +52,7 @@ You can clone the repository and compile source code by yourself. The second opt
 1. Set WPath by attribute, works for C# function and property member.
 
 ```cs
-[WPath("/Edit[@id='txtSeoid' or @Class='TextBox']")]
+[WPath("/Edit[@id='txtId' or @Class='TextBox']")]
 public AutomationElement EditControl
 {
    get { return this.AppElement.FindByWPath(); }
