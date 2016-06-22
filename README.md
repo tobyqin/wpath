@@ -1,7 +1,17 @@
 # WPath Introduction
 WPath is a library to select Windows UI automation element like XPath. The WPath looks like [XPath][1] which was wildly using to select xml elements, but it is not exactly equal to [XPath][1],  it is being used to locate [Microsoft UIAutomation][2] elements. Some special rules list below.
 
-Tags: UIA, UIPath, UIAPath, UILocator
+### Installation
+
+You can clone the repository and compile source code by yourself. The second option is navigate to release page and download the package.
+
+- <https://github.com/tobyqin/wpath/releases>
+
+### Tags: 
+
+- UIA, UIPath, UIAPath, UILocator
+
+### Usage
 
 1. The path should be started with '/'.
 2. Use '/' to separate element nodes in a path.
