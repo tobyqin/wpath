@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WPath</id>
+    <version>1.0.0</version>
+    <title>WPath</title>
+    <authors>tobyqin</authors>
+    <owners>tobyqin</owners>
+    <licenseUrl>https://github.com/tobyqin/wpath/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/tobyqin/wpath</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WPath is a library to select Windows UI automatin element like XPath.</description>
+    <releaseNotes>Release to nuget.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>xpath uiautomation uia wpath</tags>
+  </metadata>
+</package>
