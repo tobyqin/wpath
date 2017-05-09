@@ -8,7 +8,7 @@ WPath is a library to select Windows UI automation element like XPath. The WPath
 You can clone the repository and compile source code by yourself. Or just install via nuget packages.
 
 ```
-PM> Install-Package Wpath
+PM> Install-Package WPath
 ```
 
 ### Get Started
